@@ -1,0 +1,37 @@
+baseURL = 'https://wikis.win'
+languageCode = 'en'
+title = 'Wikis'
+PygmentsCodeFences = true
+PygmentsStyle = "solarized-dark256"
+pluralizelisttitles = "false"
+paginate  = 15
+disableHugoGeneratorInject = false
+enableEmoji = true
+theme = ["github.com/httpsecure/hugo-cat"]
+
+[params]
+ava = "android-chrome-512x512.png"
+owner ="Wikis for the communities"
+talk = "Lets make some good wikis"
+blogSection = ["blog"]
+description = "wikis for the communities"
+favicon = "favicon.ico"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Blog"
+url = "/blog/"
+weight = 2
+
+[[menu.main]]
+name = "Contact"
+url = "https://docs.google.com/forms/d/e/1FAIpQLSe2WFBIglzyURuWyHXM9ueZjEJRPS3SAlPHmTJC-S0y7gmd5w/viewform?usp=sf_link"
+weight = 3
+
+[[menu.main]]
+name = "About"
+url = "/about/"
